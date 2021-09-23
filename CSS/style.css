@@ -8,15 +8,9 @@ body{
 
 .header2 h1 {
     font-family: "Fira Sans", sans-serif;
-    font-size: 50px;
-    margin: 32px 16px;
+    font-size: 7em;
+    margin: 2em 4rem 1em;
 }
-@media only screen and (min-width: 35em) {
-    .header2 h1 {
-        font-size: 7em;
-        margin: 2em 4rem 1em;
-    }
-    }
 h2 {
     border-bottom: 1px solid #cc1;
     font-family: "Oxygen", Sans-Serif;
@@ -79,15 +73,11 @@ section {
 
 /* container style */
 .container {
-    padding: 1em;
+    max-width: 50em;
+    padding: 4em;
     text-align: left;
 }
-@media only screen and (min-width: 35em) {
-    .container {
-        max-width: 50em;
-        padding: 4em;
-    }
-}
+
 #section2 .container{
     margin-right: 0;
     margin-left: auto;
@@ -133,4 +123,69 @@ section {
     text-align: center;
     bottom: 0;
     height: 15px;
+}
+
+    /*******************media Query*********************/ 
+
+@media (max-width : 992px ){
+
+    .header2 h1 {
+        font-size: 70px ;
+        margin: 2em 4rem 2em;
+    }
+    h2 {
+        font-size: 2.5em;
+    } 
+    p {
+        line-height: 1.5em;
+    }
+
+}
+
+@media (max-width : 720px ){
+
+    .header2 h1 {
+        font-size: 60px ;
+        margin: 2em 4rem 2em;
+    }
+    h2 {
+        font-size: 2em;
+    } 
+    p {
+        line-height: 1.5em;
+    }
+    .btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+
+}
+
+@media (max-width : 576px ){
+
+    .nav-menu .nav-list li {
+        margin:10px 4px ;
+        font-size: 16px;
+    }
+    .nav-menu .nav-list li a {
+        padding: 8px;
+    }
+
+    .header2 h1 {
+        font-size: 40px ;
+        margin: 4em 2rem 1em;
+    }
+    h2 {
+        font-size: 2em;
+    } 
+    p {
+        line-height: 1.5em;
+        font-size: 15px;
+    }
+    .btn {
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
 }

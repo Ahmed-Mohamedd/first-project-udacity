@@ -1,4 +1,4 @@
-# first-project-udacity
+# Landing Page
 ## My first project in FWD scholarship.
 It's landing page with 4 sections and navigation bar.
 active state was added to navigation items when a section is in the viewport.
